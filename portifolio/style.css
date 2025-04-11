@@ -5,7 +5,9 @@
       border: 0;
     }
     body {
+      
       background-color: rgb(102, 95, 106);
+     
     }
     header{
       padding: 10px;
@@ -30,6 +32,25 @@
     color: rgb(13, 246, 28);
     transition: color 400ms;
   }  
-  
+  #box {
+    text-align: start;
+    padding: 32px;
+  }
+  #box img {
+    max-height: 200px;
+    border-radius: 50%;
+    border: 5px rgb(198, 194, 194);
+    margin-bottom: 32px;
+  }
+  #lr {
+    text-align: start;
+    padding: 32px;
+  }
+  #lr img {
+    max-height: 200px;
+    border-radius: 50%;
+    border: 5px rgb(198, 194, 194);
+    margin-bottom: 32px;
+  }
     
 
