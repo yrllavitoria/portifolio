@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite');
     *{
       margin: 0;
       padding: 0;
       border: 0;
     }
     body {
-      
       background-color: rgb(102, 95, 106);
-     
     }
     header{
       padding: 10px;
@@ -52,5 +51,17 @@
     border: 5px rgb(198, 194, 194);
     margin-bottom: 32px;
   }
+  div {
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+  } 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
     
 
